@@ -1,0 +1,76 @@
+{
+  "name": "Alex Rivera",
+  "contact_left": [
+    "Lisbon, Portugal",
+    "alex.rivera@example.com"
+  ],
+  "contact_right": [
+    {
+      "text": "linkedin.com/in/alex-rivera-1a2b3c4d",
+      "url": "https://www.linkedin.com/in/alex-rivera-1a2b3c4d"
+    },
+    {
+      "text": "github.com/example-user",
+      "url": "https://github.com/example-user"
+    }
+  ],
+  "summary": "Fictional example. Senior Backend Engineer at Acme Payments, leading a team of 4 engineers that builds integrations with card networks and bank APIs on AWS. Runs 1:1s and performance reviews with the manager, owns delivery against team OKRs and stays hands-on in design and code review. Median cycle time 3.2 days; release lead time cut from 21 days to 6.",
+  "experience": [
+    {
+      "role": "Senior Backend Engineer",
+      "company": "Acme Payments",
+      "dates": "Mar 2023–Present",
+      "detail_left": "Promoted from Senior Engineer L2 to L3",
+      "detail_right": "Portugal",
+      "bullets": [
+        "Lead a team of 4 engineers (since Mar 2023); onboarded all four and run their 1:1s and performance reviews with the manager.",
+        "Delivered ~180 tickets a quarter at a 3.2-day median cycle time (90% estimated, 95% with acceptance criteria), tracked in Jira against team OKRs.",
+        "Cut release lead time from 21 days to 6 by automating the deploy pipeline (GitHub Actions, Terraform).",
+        "Cut production incidents from 3 a month to 0 recurring with contract tests, a stricter Definition of Done and Datadog alerts on every provider call.",
+        "Cut provider timeouts by 40% with retries, backoff and a circuit breaker on the three busiest integrations."
+      ]
+    },
+    {
+      "role": "Senior Backend Engineer",
+      "company": "Acme Payments",
+      "dates": "Jan 2021–Mar 2023",
+      "detail_left": "Provider-integration service",
+      "detail_right": "Portugal",
+      "bullets": [
+        "Built the provider-integration service on AWS Lambda and DynamoDB.",
+        "Added retries with backoff on the first three integrations."
+      ]
+    },
+    {
+      "role": "Backend Engineer",
+      "company": "Orbit Retail",
+      "dates": "Jun 2018–Dec 2020",
+      "detail_left": "",
+      "detail_right": "Lisbon, Portugal",
+      "bullets": [
+        "Built order and inventory APIs in Python and PostgreSQL."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc, Computer Science",
+      "school": "Universidade de Lisboa",
+      "dates": "2014–2018"
+    }
+  ],
+  "skills": [
+    {
+      "label": "Programming:",
+      "value": "Python, Go, SQL"
+    },
+    {
+      "label": "Technologies:",
+      "value": "AWS (Lambda, SQS, EventBridge, DynamoDB), Terraform, GitHub Actions, Datadog, PostgreSQL"
+    },
+    {
+      "label": "Languages:",
+      "value": "Portuguese (native), English (professional working)"
+    }
+  ]
+}

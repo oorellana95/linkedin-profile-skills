@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temp and secrets
+*.tmp
+*.log
+.env
+.env.*
+
+# Claude Code local settings (keep skills tracked)
+.claude/settings.local.json
+
+# Generated resumes and their content files hold contact details: keep them local
+resume/*_resume_*
+
+# Photos and banners: personal images stay local
+profile/*.png
+profile/*.jpg
+profile/*.jpeg
